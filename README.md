@@ -1,10 +1,10 @@
 # Automated_Smart-Parking_System
 The automated smart parking system is designed to enhance parking management by automating the detection and allocation of parking spaces. This system leverages the Arduino Uno microcontroller and IR (Infrared) sensors to detect the presence or absence of vehicles in parking spots.he primary goal is to provide a real-time update on parking availability and guide users to free spaces, thereby reducing the time spent searching for parking and improving overall parking efficiency.
 
-### Overview
+## Overview
 The Automated Smart Parking System is designed to manage parking spaces efficiently using an Arduino Uno, IR sensors, a servo motor, LEDs, and an LCD display. This system automates the detection and allocation of parking slots, reducing the time spent searching for parking and improving overall efficiency.
 
-### Components
+## Components
 - *Arduino Uno:* Central controller
 - *IR Sensors:* Detects presence of vehicles in parking slots
 - *Servo Motor:* Controls the barrier gate for entry and exit
@@ -12,7 +12,7 @@ The Automated Smart Parking System is designed to manage parking spaces efficien
 - *LCD Display:* Shows real-time updates on parking availability
 - *Wires and Breadboard:* For connections
 
-### Circuit Diagram
+## Circuit Diagram
 Make sure to connect components as per the following:
 - *IR Sensors:* 
   - Car Slot 1: Pin 9
@@ -29,7 +29,7 @@ Make sure to connect components as per the following:
 - *Servo Motor:* Pin 3
 - *LCD Display:* I2C pins (SDA and SCL)
 
-### Installation and Setup
+## Installation and Setup
 1. *Hardware Setup:*
    - Connect the IR sensors, LEDs, and servo motor to the Arduino Uno as per the circuit diagram.
    - Connect the LCD display using I2C interface (SDA and SCL pins).
